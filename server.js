@@ -1,4 +1,5 @@
 var express = require('express')
+var moment = require('moment')
 var app = express()
 
 app.get('/', function(req, res){
@@ -8,5 +9,5 @@ app.get('/', function(req, res){
 var port = 3001
 
 app.listen(port, function(){
-    console.log('[INFO] portal de Adimen en estado RUNNING en el puerto %s', port);
+    console.log('%s [INFO] portal de Adimen en estado RUNNING en el puerto %s', moment().format("YYYY/MM/DD hh:mm:ss"), port);
 })
