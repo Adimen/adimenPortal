@@ -1,17 +1,22 @@
 {
   "name": "adimenPortal",
   "version": "1.0.0",
-  "description": "",
+  "description": "Portal de proyectos Adimen",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon server",
     "start": "node server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Adimen SpA",
   "license": "ISC",
   "dependencies": {
+    "compression": "^1.7.4",
     "express": "^4.17.1",
     "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
