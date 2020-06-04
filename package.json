@@ -1,6 +1,6 @@
 {
   "name": "adimenPortal",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Portal de proyectos Adimen",
   "main": "index.js",
   "scripts": {

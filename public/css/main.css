@@ -2,13 +2,13 @@
 body {
     margin: 0;
     padding: 0;
-    background: #E1E1E1;
-    font-family: sans-serif;
+    background: #E6E9EC;
+    font-family: 'Asul', sans-serif;
   }
   
 .header {
     background-color: #000000;
-    color: #FFA700;
+    color: #FA6900;
     width: 100%;
     height: 70px;
     text-transform: uppercase;
@@ -73,6 +73,7 @@ body {
 
 .info:hover {
   border: #FFA700 1px solid;
+  box-shadow: 7px 7px 5px #201F1F;
 }
 
 .unidades {
@@ -101,7 +102,7 @@ body {
 .unidades article:hover {
   border: #FFA700 solid 0.5px;
   opacity: 95%;
-  box-shadow: 10px 10px 5px #201F1F;
+  box-shadow: 7px 7px 5px #201F1F;
 }
 
 .unidades article img {
@@ -120,10 +121,13 @@ body {
     margin: 20px;
     background-color: #FFFFFF;
     padding: 0px 25px 25px;
-    box-shadow: 10px 10px 5px #201F1F;
     border-radius: 5px;
     display: table;
   }
+
+#login-form:hover {
+  box-shadow: 7px 7px 5px #201F1F;
+}
 
 #login-form .login-header {
     margin-bottom: 20px;
@@ -163,7 +167,7 @@ body {
 
 #login-form .login-campos input[type=email]:focus, input[type=password]:focus {
     background: #00B3FF;
-    box-shadow: 0px 0px 0px 3px #FFA700, inset 0px 2px 3px rgba(0,0,0,0.2), 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 0px 2px #FFA700, inset 0px 2px 3px rgba(0,0,0,0.2), 0px 5px 5px rgba(0,0,0,0.15);
     outline: none;
 }
 
@@ -187,11 +191,11 @@ body {
 }
 
 #login-form .login-campos #submit:hover {
-    background: -webkit-gradient(linear, left top, left bottom, from(#FFA700), to(#E1E1E1))
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFA700), to(#F38630))
 }
 
 #login-form .login-campos #submit:active {
-  background: -webkit-gradient(linear, left top, left bottom, from(#201F1F), to(#FFA700));
+  background: -webkit-gradient(linear, left top, left bottom, from(#FA6900), to(#FFA700));
   color: #E1E1E1;
 }
 
