@@ -13,7 +13,7 @@ body {
     height: 70px;
     text-transform: uppercase;
     font-family: 'Nunito', sans-serif;
-    font-size: 36px;
+    font-size: 34px;
     font-weight: bold;
     letter-spacing: 5px;
     position: fixed;
@@ -28,6 +28,7 @@ body {
 
 .title {
     color: #000000;
+    font-size: 18px;
 }
 
 .container {
@@ -69,6 +70,7 @@ body {
   display: block;
   background-color: #FFFFFF;
   border: #00B3FF 1px solid;
+  font-weight: lighter;
 }
 
 .info:hover {
@@ -92,11 +94,22 @@ body {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.unidades article p {
+.unidades article .desc {
+  grid-column: 1;
+}
+
+.unidades article .desc p {
   text-align: center;
   padding-left: 5px;
   font-weight: bold;
-  grid-column: 1;
+}
+
+.etiqueta {
+  background-color: #F38630;
+  margin-left: 4px;
+  width: 180px;
+  height: 10px;
+  border-radius: 0px 0px 100px 0px;
 }
 
 .unidades article:hover {
