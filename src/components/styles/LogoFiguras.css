@@ -1,0 +1,69 @@
+.logo {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+#yin-yang {
+    width: 50px;
+    box-sizing: content-box;
+    height: 15px;
+    background: #FA6900;
+    border-color: #201F1F;
+    border-style: solid;
+    border-width: 2px 2px 37px 2px;
+    border-radius: 100%;
+    position: relative;
+}
+#yin-yang:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10;
+    background: #201F1F;
+    border: 10px solid #FA6900;
+    border-radius: 100%;
+    width: 6px;
+    height: 6px;
+    box-sizing: content-box;
+}
+#yin-yang:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    background: #FA6900;
+    border: 10px solid #201F1F;
+    border-radius: 100%;
+    width: 6px;
+    height: 6px;
+    box-sizing: content-box;
+}
+#liston {
+    position: absolute;
+    top: 10.5%;
+    right: 0;
+    opacity: 75%;
+}
+#triangle-bottomright-nr1 {
+    width: 0;
+    height: 0;
+    border-bottom: 31px solid #F38630;
+    border-left: 31px solid transparent;
+}
+#triangle-bottomleft-ng1 {
+    width: 0;
+    height: 0;
+    border-bottom: 31px solid #201F1F;
+    border-right: 31px solid transparent;
+}
+#triangle-topright-gr1 {
+    width: 0;
+    height: 0;
+    border-top: 31px solid #DBDCDE;
+    border-left: 31px solid transparent;
+}
+#triangle-topleft-az1 {
+    width: 0;
+    height: 0;
+    border-top: 31px solid #00B3FF;
+    border-right: 31px solid transparent;
+  }
