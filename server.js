@@ -5,17 +5,17 @@ var https = require('https')
 var http = require('http')
 var app = express()
 
-app.use('/public', express.static(__dirname + '/public'))
+app.use('/', express.static(__dirname + '/dist'))
 //app.use(compression)
 
-app.get('/about', function(req, res){
+/*app.get('/about', function(req, res){
     console.log('About')
     res.send('ADIMEN SPA')
 })
-
+*/
 app.get('/', function(req, res){
     console.log('Home')
-    res.redirect('/public/home.html')
+    res.redirect('/index.html')
 })
 
 var port = 3001
