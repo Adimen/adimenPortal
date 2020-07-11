@@ -7,7 +7,9 @@ import '../components/styles/Badges.css'
 class Badges extends Component {
     constructor(props) {
         this.state={
-            data: []
+            loading: true,
+            error: null,
+            data: undefined
         }
     }
     componentDidMount() {

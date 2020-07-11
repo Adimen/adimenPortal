@@ -23,7 +23,7 @@ class Units extends Component {
                     id: 1,
                     title: "CloudOps - Devops",
                     description: "Coaching para llevar tus procesos a Devops y migrar tus sistemas a la nube",
-                    imagen: './assets/img/74b0a198831708279472402aecb63dbd.jpg',
+                    imagen: 'http://cdn.adimen.cl/assets/img/74b0a198831708279472402aecb63dbd.jpg',
                 },
                 {
                     id: 2,
