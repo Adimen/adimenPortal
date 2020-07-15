@@ -7,10 +7,11 @@ assignees: ''
 
 ---
 
-Author:
-Rol:
+**Author:**
 
-Descripción:
+**Rol:**
+
+**Descripción:**
 
 
-Criterios de Aceptación:
+**Criterios de Aceptación:**
