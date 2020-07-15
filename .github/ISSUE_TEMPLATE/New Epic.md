@@ -16,4 +16,4 @@
 
 
 
-🐾 **Primer paso**
+🐾 **Primeros pasos**
