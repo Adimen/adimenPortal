@@ -15,6 +15,7 @@
   "author": "Adimen SpA",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "compression": "^1.7.4",
     "express": "^4.17.1",
@@ -27,6 +28,7 @@
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-transform-runtime": "^7.10.5",
     "@babel/preset-env": "^7.10.2",
     "@babel/preset-react": "^7.10.1",
     "babel-loader": "^8.1.0",
