@@ -10,7 +10,6 @@
   "author": "cavila@adimen.cl",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
     "express": "^4.17.1",
     "moment": "^2.27.0"
   }

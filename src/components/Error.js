@@ -1,10 +1,10 @@
 import React from 'react'
 import './styles/Error.css'
 
-function Error(props) {
+function Error() {
     return (<div className="Error">
-        <h1>{props.mensaje}</h1>
+        <h1>CARGANDO....</h1>
     </div>)
 }
 
-export default Error
+export default PageLoading

@@ -1,32 +1,31 @@
 var express = require('express')
 var moment = require('moment')
 var http = require('http')
-var cors = require('cors')
 var app = express()
 
-var respuesta = [{
+var data = [{
     id: 1,
     title: "CloudOps - Devops",
     description: "Coaching para llevar tus procesos a Devops y migrar tus sistemas a la nube",
-    imagen: 'http://adimen.cl/assets/img/74b0a198831708279472402aecb63dbd.jpg',
+    imagen: './assets/img/74b0a198831708279472402aecb63dbd.jpg',
 },
 {
     id: 2,
     title: "Inteligencia Artificial y Maching Learning",
     description: "Enseñale a tus servidores a que trabajen por ti.",
-    imagen: 'http://cdn.adimen.cl/assets/img/5bcabd294e2f0f736356ba5189d6fbba.jpg',
+    imagen: './assets/img/5bcabd294e2f0f736356ba5189d6fbba.jpg',
 },
 {
     id: 3,
     title: "Internet de las cosas",
     description: "Convierte tu casa en un hogar inteligente, programalo de acuerdo a tus horarios.",
-    imagen: 'http://localhost:4001/assets/img/c2aec8d277517104ccbb9a925a09ea4b.jpeg',
+    imagen: './assets/img/c2aec8d277517104ccbb9a925a09ea4b.jpeg',
 },
 {
     id: 4,
     title: "Automatizacion y robotica",
     description: "Automatiza tus procesos, o si necesitas robotizar algun proceso, imaginate tener tu propio androide.",
-    imagen: 'http://localhost:9001/assets/img/eaa1a28408375fc447e4acc7dd86916d.jpg'
+    imagen: './assets/img/eaa1a28408375fc447e4acc7dd86916d.jpg'
 },
 {
     id: 5,
@@ -48,7 +47,6 @@ var respuesta = [{
 }]
 
 app.use('/api', express.static(__dirname + '/'))
-app.use(cors())
 /*app.use(compression)
 */
 app.get('/', function(req, res){
@@ -57,8 +55,8 @@ app.get('/', function(req, res){
 })
 
 app.get('/api/getInformationCard-1.0', function(req, res){
-    console.log('Enviando datos de Tarjetas de Informacion ', req.hostname)
-    res.status(200).json(respuesta)
+    console.log('Enviando datos de Tarjetas de Informacion')
+    res.json(data)
 })
 
 app.get('/api/', function(req, res) {
