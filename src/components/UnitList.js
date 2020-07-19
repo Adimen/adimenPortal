@@ -11,6 +11,7 @@ class UnitList extends Component {
                 return (<li key={unit.id}><UnitCard data={unit}/></li>)
             })}
         </ul>
+        <Footer />
         </React.Fragment>)
     }
 }
