@@ -1,0 +1,23 @@
+version: '3'
+services:
+    landing:
+      build: ./app
+      dockerfile: Dockerfile
+      ports:
+        - 3001:3001
+    app:
+      build: ./fokusApp
+      dockerfile: Dockerfile
+      ports:
+        - 3011:3011
+    api:
+      build: ./api
+      dockerfile: Dockerfile
+      ports:
+        - 4001:4001
+    proxy:
+      build: ./nginx
+      dockerfile: Dockerfile
+      ports: 
+        - 8080:80
+        - 443:443

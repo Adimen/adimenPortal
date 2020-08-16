@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import UnitCard from './UnitCard'
-import Footer from './Footer'
 import './styles/UnitList.css'
 
 class UnitList extends Component {

@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
-import Logo from '../../public/img/network_enterprise_business_shopping_1731.png'
-import '../components/styles/Header.css'
-import '../components/styles/LogoFiguras.css'
+//import Logo from '../../public/img/network_enterprise_business_shopping_1731.png'
+import './styles/Header.css'
+import './styles/LogoFiguras.css'
 
 class Header extends Component {
     render() {

@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
-import Logo from '../../public/img/cyber-3400789__480_webp.jpg'
+import Logo from '..'
 import BadgeList from '../components/BadgeList'
 import '../components/styles/Badges.css'
 

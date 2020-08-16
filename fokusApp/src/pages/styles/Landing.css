@@ -1,0 +1,13 @@
+.land__card {
+    background-color: #FFFFFF;
+    margin-top: 100px;
+    margin-left: 50px;
+    padding: 10px;
+    height: 210px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.container {
+    height: 480px;
+}
