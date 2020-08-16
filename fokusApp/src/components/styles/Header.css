@@ -1,0 +1,13 @@
+.header__container {
+    background-color: #000000;
+    height: 40px;
+}
+
+.header__title {
+    color: #F38630;;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    padding-top: 5px;
+    padding-left: 40%
+}

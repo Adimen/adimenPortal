@@ -25,8 +25,8 @@ class Units extends Component {
     fetchData = async () => {
         this.setState({loading: true, error: null})
         try {
-            const data = await fetch('http://localhost:4001/api/getInformationCard-1.0')
-            await data.json().then((res)=>{this.setState({loading: false, error: null, data: res})}).catch(console.log(error))
+            const data = await fetch('http://localhost:4001/api/serviceCard/getInformationCard-1.0')
+            await data.json().then((res)=>{this.setState({loading: false, error: null, data: res["data"]})}).catch(console.log('ERROR :' + error))
         } catch (err) {
             console.log('ERROR: ', err.message)
             this.setState({loading: false, error: err})

@@ -1,0 +1,11 @@
+html {
+    background-color: #F38630;
+}
+body {
+    height: 100%;
+    font-family: 'Assistant', sans-serif;
+    background: no-repeat;
+    background-color: #EEF2F5;
+    background-image: linear-gradient(to right bottom, rgba(219, 220, 222, 0.3),
+    rgba(265, 167, 0, 0.5), rgba(32, 31, 31, 0.2));
+}

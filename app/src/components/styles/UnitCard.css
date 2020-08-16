@@ -45,3 +45,11 @@
     font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
     font-size: 12px;
 }
+
+.boton {
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    width: 80px;
+}
